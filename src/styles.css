@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.element {
+}
+#wrapper {
+  width: 100%;
+  overflow: hidden; /* will contain if #first is longer than #second */
+}
+#file {
+  width: 20%;
+  float: left; /* add this */
+}
+#edit {
+  width: 20%;
+  float: left;
+  overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+#values {
+  width: 20%;
+  float: left;
+  overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+#help {
+  width: 20%;
+  float: left;
+  overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+.menuButton {
+  width: 100%;
+}
