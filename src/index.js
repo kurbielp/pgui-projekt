@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./styles.css";
-
+import { Modal } from "./valuesModal.js";
 class DataTable {
   constructor() {
     this.rows = {};
@@ -30,6 +30,7 @@ class DataTable {
 
   value(r, c) {}
 }
+
 class Card extends React.Component {
   constructor() {
     super();
@@ -166,6 +167,7 @@ class Card extends React.Component {
         <div id="values">
           <button
             class="menuButton"
+            onClick={Modal}
             //onClick={ReactDOM.createPortal(child, container)}
           >
             Values
